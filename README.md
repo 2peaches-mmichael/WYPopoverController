@@ -146,7 +146,21 @@ WYPopoverController uses ARC.
 
 ---
 
-~~iOS SDK 7.0 (with Xcode 5) is required.~~
+### Swift Package Manager
+
+To integrate using Swift Package Manager, add the following to your `Package.swift` file:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/YOUR_USERNAME/WYPopoverController.git", from: "x.x.x")
+]
+```
+
+Or in Xcode:
+
+1. Select File > Swift Packages > Add Package Dependency
+2. Enter the repository URL: `https://github.com/YOUR_USERNAME/WYPopoverController.git`
+3. Follow the prompts to select the version, branch, or commit you want to use
 
 #### Cocoapods
 
