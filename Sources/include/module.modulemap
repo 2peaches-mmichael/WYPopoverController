@@ -1,6 +1,0 @@
-framework module WYPopoverController {
-    umbrella header "WYPopoverController.h"
-    
-    export *
-    module * { export * }
-}
