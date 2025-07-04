@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "WYPopoverController",
             dependencies: [],
-            path: "Sources",
+            path: "WYPopoverController",
             publicHeadersPath: "."
         )
     ]
